@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+</h1>
+<script type="text/javascript">
+  var currentTime = new Date();
+  var hours = currentTime.getHours();
+  var minutes = currentTime.getMinutes();
+  var suffix = "AM";  // use AM by default
+
+  if (minutes < 10)
+    minutes = "0" + minutes;
+
+  if (hours >= 12) {
+    suffix = "PM";
+    hours = hours - 12;
+  }
+  if (hours == 0) {
+    hours = 12;
+  }
+
+  document.write("<b><div id='d1'>" + hours + ":" +
+   minutes + " " + suffix + "</div></b>");
+   
+</script>
+  <head>
+         <style>
+    /* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: none;
+}
+</style>
+<style>
+body {
+    margin: 50px 50px 50px 50px;
+}
+</style>
+    <meta charset="utf-8">
+    <title>About Me</title>
+     <center> <a href="index.html"style=font-family:courier;font-size:120%>Home</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="portfolio.html"blank" style=font-family:courier;font-size:120%>Portfolio</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="aboutme.html"style=font-family:courier;font-size:120%>About Me</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="resume.html"style=font-family:courier;font-size:120%>Resume</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="tipsandtricks.html"style=font-family:courier;font-size:120%>Tips and Tricks</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="reflection.html"style=font-family:courier;font-size:120%>Reflection</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="assetinventory.html"style=font-family:courier;font-size:120%>Asset Inventory</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </head>
+    <style> 
+body {
+    background: url("img_flwr.gif");
+    background-size: 1650px 1400px;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+}
+</style>
+   <body style="background-image:url(images/whitetile.jpg)">
+  <br>
+  <body>
+  <center><p style="font-family:courier;font-size:700%">About Me</p></center> 
+  <center><p style="font-family:courier;font-size:400%">Mariana Jimenez</p></center> 
+   <br>
+   <center><img src="images/avatar.PNG" alt="Avatar" height="175"></center>
+
+  </body>
+</html>
+

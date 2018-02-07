@@ -1,0 +1,43 @@
+body {
+    background: url("img_flwr.gif");
+    background-size: 1450px 1200px;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+}
+body {
+    margin: 50px 50px 50px 50px;
+}
+ /* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: none;
+}
